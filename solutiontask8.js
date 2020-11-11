@@ -1,7 +1,7 @@
-function Task8(num) {
+function getTime(num) {
     var time = num;
-    return Math.trunc(time / 60) + 'hours' + time % 60 + 'minutes'
+    return Math.trunc(time / 60) + 'h' + ':' + time % 60 
     
 }
 
-console.log(Task8())
+console.log(Task8(71))

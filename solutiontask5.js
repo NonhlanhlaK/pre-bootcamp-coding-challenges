@@ -1,4 +1,4 @@
-function Task5(num1, num2, num3) {
+function findAreaOfTriangle(num1, num2, num3) {
     return (num1 + num2 + num3) * 0.5
     
 }

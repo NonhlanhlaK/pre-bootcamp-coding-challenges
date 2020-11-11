@@ -1,4 +1,4 @@
-function Task7(num1) {
+function getTemperature(num1) {
     var temperature = 'f'
     return num1 * 33.8 + temperature
     
