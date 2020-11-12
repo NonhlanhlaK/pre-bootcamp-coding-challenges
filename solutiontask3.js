@@ -7,4 +7,4 @@ function is65(num1, num2) {
 
 }
     
-console.log(Task3())
+console.log(is65())

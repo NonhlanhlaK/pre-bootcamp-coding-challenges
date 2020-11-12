@@ -12,4 +12,4 @@ function findMaxNum(num1, num2, num3) {
   
   }
   
-  console.log(findMaxNum(290, 590, 5450))
+  console.log(findMaxNum())

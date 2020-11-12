@@ -1,7 +1,10 @@
 function getTime(num) {
     var time = num;
-    return Math.trunc(time / 60) + 'h' + ':' + time % 60 
+    if (time > 60)
+    return Math.trunc(time / 60) + 'hours'  + time % 60 + 'minutes'
+    else
+    return Math.trunc(time / 60) + 'hour'
     
 }
 
-console.log(Task8(71))
+console.log(getTime(133))
