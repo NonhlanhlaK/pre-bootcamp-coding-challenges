@@ -5,4 +5,4 @@ function findAreaOfTriangle(num1, num2, num3) {
     
 }
 
-console.log(findAreaOfTriangle(3, 4, 5))
+console.log(findAreaOfTriangle())

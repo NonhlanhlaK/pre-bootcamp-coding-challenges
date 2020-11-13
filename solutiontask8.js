@@ -7,4 +7,4 @@ function getTime(num) {
     
 }
 
-console.log(getTime(133))
+console.log(getTime())
