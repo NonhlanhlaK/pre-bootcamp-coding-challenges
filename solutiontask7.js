@@ -9,8 +9,7 @@ function getTemperatureFereignheight(num1) {
         return num1 / 33.8 + temperature
     }
 
-//this part executes function getTemperatureFereignheight
+
 console.log(getTemperatureFereignheight())
 
-//this part executes function getTemperatureCelcius
 console.log(getTemperatureCelcius())
