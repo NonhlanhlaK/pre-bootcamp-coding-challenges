@@ -1,15 +1,12 @@
 function findMaxNum(num1, num2, num3) {
+    let arr = [num1, num2, num3];
+    let maxNum = arr[0];
+    for(a = 0; a < arr.length; a++) {
+        if(arr[a] > maxNum) {
+            maxNum = arr[a]
+        }
+    }
+    return maxNum
+}
 
-    if (num1 > num2 || num1 > num3)
-    return num1
-    else 
-    if (num2 > num1 || num2 > num3)
-    return num2 
-    else 
-    if (num3 > num1 || num3 > num2)
-    return num3
-    
-  
-  }
-  
-  console.log(findMaxNum())
+console.log(findMaxNum())
